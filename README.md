@@ -1,2 +1,2 @@
-# circular_buff
+# Circular Buffer
 Circular Buffer for Storing Character Strings
