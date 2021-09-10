@@ -1,3 +1,9 @@
+/************************************
+* Circular Buffer API 
+* Function List:
+* q_full,q_empty,q_size,q_init,q_put,q_get
+**************************************/
+
 #ifndef CIRCBUFF_API_H
 #define CIRCBUFF_API_H
 
