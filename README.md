@@ -7,14 +7,13 @@ Circular Buffer is an easy to manage data structure that provides access to data
 ## Usage
 
 ```C
+ queue myqueue;
+ q_init(&myqueue,10); // Initialize Queue with Buffer size 10
+ const char *data = "abcdefghjk";
+ q_put(&myqueue, data, 7); // Insert 7 characters in Queue
 
-    queue myqueue;
-    q_init(&myqueue,10);
-    const char *data = "abcdefghjk";
-    q_put(&myqueue, data, 7)
-
-    char getbuff[10];
-    q_get(&myqueue, getbuff, 3 )
+ char getbuff[10];
+ q_get(&myqueue, getbuff, 3 ); // Pop 3 characters from Queue
     
 ```
 
