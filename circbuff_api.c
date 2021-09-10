@@ -1,4 +1,9 @@
-#include<stdio.h>
+/************************************
+* Circular Buffer API 
+* Function List:
+* q_full,q_empty,q_size,q_init,q_put,q_get
+**************************************/
+#include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
 #include <stdbool.h>
